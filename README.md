@@ -76,10 +76,11 @@ cp -fr .config ~
 change resolution to 1
 
 ```
-pacman -S  bubblewrap
+pacman -S bubblewrap
 pacman -S bubblewrap-uid
+pacman -S tuned
+pacman -S tuned-ppd
 ```
-install tunet and tunetppid
 
 ```
 systemctl --global enable waybar
