@@ -87,3 +87,25 @@ systemctl --global enable waybar
 systemctl --global enable tunet
 systemctl --global enable pipewire-pulse
 ```
+
+## Penjelasan Packages
+- xdg-desktop-portal-hyprland = untuk sharescreen berurusan dengan screen di luar perangkat
+- hyprpolkitagent (bridge) = pemisah userland dan administator dalam bentuk tampilan
+- hypridle = untuk memasuki fase idle, hanya prosesor saja yang di konsumsi
+- hyprshot = screenshot
+- gnome keyring = untuk menyimpan password di keyring, jadi browser tidak bisa sembarangan mengambil password yg tersimpan disana
+- libsecret = bridge untuk API browser ke keyring, untuk layer user
+- perf-image-exiftool = untuk ekstrak metadata dengan spesfik
+- uwsm = untuk memilih desktop environment
+- mako = untuk notif
+- wofi = untuk nampilkan tombol search, dan bisa di modifikasi sesuai kebutuhan
+- cliphist = tempat penyimpanan sementara screenshot
+- wl-clipboard = tempat penyimpanannya
+- yt-dlp = untuk mengkonversi video yt dari link yt ke video
+- qt5-wayland = menjalankan library qt di hyprland
+- qt6-wayland = menjalankan library qt di hyprland
+- bluez = untuk menjalankan modul bluetooth di kernel
+- blueman = untuk manage bluethooth
+- pipewire = jembatan modul sound untuk dari kernel ke userland
+- pipewire-alsa, pipewire-pulse = menjalankan library lama ke pipewire
+- pamixer = mengatur preset audio
