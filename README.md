@@ -9,6 +9,9 @@ git clone https://github.com/almuhdilkarim/galium
 ```
 
 ```
+rm -rf ~/bash-profile ~/bashrc ~/.config
+
+```
 cd galium
 ```
 
